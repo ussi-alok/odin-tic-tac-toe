@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    padding:0;
+}
+.main-container{
+    height:500px;
+    width:500px;
+    background-color: rgb(16, 16, 16);
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 5px;
+}
+.main-container > *{
+    background-color: rgb(94, 93, 93);
+}
+.item:hover{
+    background-color: rgba(246, 45, 45, 0.859);
+}
