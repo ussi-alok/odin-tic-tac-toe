@@ -9,16 +9,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="main-container">
-        <div class="item-1 item x"></div>
-        <div class="item-2 item circle"></div>
-        <div class="item-3 item"></div>
-        <div class="item-4 item"></div>
-        <div class="item-5 item"></div>
-        <div class="item-6 item"></div>
-        <div class="item-7 item"></div>
-        <div class="item-8 item"></div>
-        <div class="item-9 item"></div>
+    <div class="board" id="board">
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+    </div>
+    <div class="winning-message " id="winningMessage">
+        <div  data-winning-message-text></div>
+        <button id="restartButton">Restart</button>
     </div>
 
     <!-- javascript file goes down there -->
